@@ -9,6 +9,12 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
+  constructor() {}
+
+  ngOnInit() {
+    alert('xcvcxvcxvx')
+  }
+  
 
   share() {
     window.alert('The product has been shared!');

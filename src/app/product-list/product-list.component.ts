@@ -12,7 +12,7 @@ export class ProductListComponent {
   constructor() {}
 
   ngOnInit() {
-    alert('xcvcxvcxvx')
+   
   }
   
 
